@@ -23,6 +23,7 @@ const Tests: React.FC = () => {
     };
   }, [selectedEffect]);
 
+
   const handleEffectClick = (effectName: string) => {
     setSelectedEffect(prevEffect => (prevEffect === effectName ? null : effectName));
   };
