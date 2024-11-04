@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Rubik+Wet+Paint&display=swap');
+
+.about-container {
+  position: relative;
+  height: 91.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 94%;
+  margin: 27px;
+  border-radius: 20px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  background-image: url('../assets/images/network.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.left-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.big-phrase {
+  font-size: 10rem;
+  font-family: "Anton SC", sans-serif;
+  font-style: normal;
+  color: white;
+  word-break: break-word;
+}
+
+.right-content {
+  flex: 1;
+  padding: 20px;
+  font-size: 1rem;
+  color: white;
+  font-family: 'Anton SC', sans-serif;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+
+}

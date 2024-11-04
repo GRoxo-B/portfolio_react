@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+.sidebar-overlay {
+  background-color: #2b2b3b;
+  border-radius: 28px;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.25rem;
+  margin-left: -10px;
+}
+
+button.navbar-toggler.collapsed {
+  margin-right: 5px;
+  border: none;
+}
+
+button.navbar-toggler.collapsed:focus {
+  border: none;
+  box-shadow: none;
+}
+
+button.navbar-toggler {
+  margin-right: 5px;
+  border: none;
+  box-shadow: none;
+
+}
+
+button.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+span.navbar-toggler-icon {
+  border: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+
+.nav-link.active {
+  color: gray !important;
+}
+
+.brand-text {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.brand-name {
+  margin-left: 10px;
+  font-family: 'Rubik Wet Paint', sans-serif;
+  font-size: 1.40rem;
+  color: white;
+}
+
+.login-button {
+  box-shadow: 0 0 3px;
+  text-shadow: 0 0 3px;
+  transition: box-shadow 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding: 0.4rem 2rem;
+  background-color: transparent;
+  border-color: #0056b3;
+  color: #0056b3;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:hover {
+  box-shadow: 0 0 3px;
+  text-shadow: 0 0 3px;
+  background-color: #004494;
+  border-color: #004494;
+}

@@ -1,0 +1,11 @@
+.learn-more-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .learn-more-button {
+    display: none;
+  }
+}
